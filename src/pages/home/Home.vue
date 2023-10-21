@@ -1,4 +1,3 @@
-<!-- Home.vue -->
 <template>
     <div>
         <h1>My Portfolio</h1>
@@ -14,6 +13,7 @@
 import { projects } from '@/data/mockData'
 
 export default {
+    name: "HomePage",
     data() {
         return {
             projects,
